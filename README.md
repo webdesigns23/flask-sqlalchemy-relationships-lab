@@ -86,7 +86,6 @@ Model Requirements:
 | Session         | id (PK), title (String), start_time (DateTime), event_id (FK to Event)   |
 | Speaker         | id (PK), name (String)                                                  |
 | Bio             | id (PK), bio_text (String), speaker_id (FK to Speaker)                  |
-| SessionSpeakers | employee_id (FK to Speaker), session_id (FK to Session)                 |
 
 Relationships:
 * Event: sessions relationship
