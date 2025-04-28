@@ -158,7 +158,7 @@ In app.py, build the following:
     * Include a `200` status if event exists.
     * If the event does not exist, return a message formatted as a dict `{"error": "Event not found"}` with status 404.
 
-##### Speaker Enpoints
+##### Speaker Endpoints
 * GET `/speakers`: Returns a list of all speakers.
     * Speakers should be formatted as a dictionary with id and name.
     * Include a status of 200.
